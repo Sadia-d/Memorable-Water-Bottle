@@ -1,7 +1,9 @@
 .bottle{
-
+border: 2px solid springgreen;
+border-radius: 10px;
+padding: 5px;
 }
 
  img{
-    height: 300px;
+    height: 200px;
 }

@@ -1,14 +1,14 @@
 import React from 'react';
-import 
+import './Bottle.css'
 
 const Bottle = ({bottle}) => { 
     const {name , img , price} = bottle;
     
     return (
         <div className='bottle'>
-            <h2>Bottle : {name} </h2>
+            <h3>Bottle : {name} </h3>
             <img src={img} alt="" srcset="" />
-            <p>Price : {price}</p>
+            <h5>Price : {price}</h5>
         </div>
     );
 };
