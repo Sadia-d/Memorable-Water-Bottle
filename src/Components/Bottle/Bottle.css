@@ -7,3 +7,8 @@ padding: 5px;
  img{
     height: 200px;
 }
+
+button{
+    background:black;
+    color: white;
+}
