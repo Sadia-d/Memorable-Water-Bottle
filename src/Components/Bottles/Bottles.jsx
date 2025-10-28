@@ -14,17 +14,17 @@ const Bottles = () => {
     } , [])
 
     const handleAddCart = (bottle) =>{
-        const alreadyAded = cart.find((b) => b.name === bottle.name)
-        if(alreadyAded){
-            alert('already add this')
-            return
-        }
+        // const alreadyAded = cart.find((b) => b.price === bottle.price)
+        // if(alreadyAded){
+        //     alert('already add this')
+        //     return
+        // }
         setCart(p =>[...p , bottle ])
     }
 
     return (
         <div>
-            <h3>Bottles here : {bottles.length}</h3>
+            <h3>Bottles available : {bottles.length}</h3>
             <h4>Cart : {cart.length} </h4>
 
             <div className='bottles-container'>
